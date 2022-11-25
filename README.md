@@ -27,3 +27,6 @@ WireBuilder is a tool that allows you to create wires from the Unity Editor.
     /// Only if you are using the wire without physics and you don't want to modify the wire anymore
     /// press Finish no physics wire, this removes the segments as they are not needed because the positions are stored in TubeRender.cs
     /// it also removes references and some components. To improve performance.
+    
+    /// This tool contains the TubeRenderer code by Mathias Soeholm.
+    /// https://gist.github.com/mathiassoeholm/15f3eeda606e9be543165360615c8bef
