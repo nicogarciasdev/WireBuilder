@@ -10,7 +10,10 @@ WireBuilder is a tool that allows you to create wires from the Unity Editor.
     /// 
     /// Create a new layer, example: "wire".
     /// Go to Proyect Settings > Physics > Layer Collision Matrix > disables collisions of the layer with itself.
-    /// Set the layer "wire" in the prefab WireBuilder, and all prefabs in the prefabs folder. Change childrens as well.
+    /// Set the layer "wire" in the prefabs EndAnchor, segment, segmentNoPhysics, StartAnchor, WireBuilder. Change childrens as well. 
+    /// Do not change plug layer. 
+    /// 
+    /// If you use URP add layer "wire" to URP Renderer Data > Filtering.
     /// 
     /// Keep the gizmos active to be able to select position.
     
